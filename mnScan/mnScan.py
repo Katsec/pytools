@@ -28,7 +28,7 @@ def get_ip_list(ip):
 
     def numtoip(x):
         return '.'.join(
-            [str(x / (256 ** i) % 256) for i in range(0, -1, -1)])
+            [str(int(x / (256 ** i) % 256)) for i in range(0, -1, -1)])
 
     # 兼容IP范围
     if '-' in ip:
