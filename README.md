@@ -32,18 +32,6 @@ python3 check.py -r url.txt
 
 
 
-## listFile
-
-主要用于获取源码路径生成字典进行扫描
-
-### usage
-
-```bash
-python3 listfile.py #可输入绝对路径或相对路径
-```
-
-
-
 ## crackTomcat
 
 tomcat 管理后台密码爆破,支持批量爆破。  
